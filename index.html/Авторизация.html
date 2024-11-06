@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Зарегистрируйтесь</title>
+  <style>
+    
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      background-color: #00000047;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgb(218, 14, 218);
+      width: 410px;
+    }
+
+
+
+    .button:hover {
+      background-color: #45a049; 
+    }
+
+    .button:active {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+      transform: translateY(2px); 
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 5px;
+    }
+
+    textarea {
+      height: 90px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Зарегистрируйтесь</h1>
+    <form action="/reserve" method="post">
+      <div>
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="phone">Ваш телефон:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div>
+        <label for="message">Допонительный        <textarea id="message" name="message"></textarea>
+      </div>
+      
+      <span class="psw"><a href="C:\Users\raved\Desktop\ИНТЕНЕТ МАГАЗИН\index.html\Магазин RAVE.html">Вход</a></span>
+      
+    </form>
+    <p style="background-image: url('https://i.sunhome.ru/poetry/248/zabuti-krila.orig.jpg');">
+  </div>
+</body>
+</html>

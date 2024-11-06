@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Интернет-магазин спортивных товаров</title>
+</head>
+<body>
+    
+   
+</body>
+</html>
+<style css>
+    
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+section {
+    margin: 30px 0;
+    width: 100%; 
+}
+
+.product-container {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.product {
+    background: white;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%; 
+    border-radius: 20px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+:root {
+    --primary-color: #0066cc;
+    --secondary-color: #00ff3c;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+  }
+  
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 5200px;
+    margin:0 auto;
+    padding: 2rem;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 7fr));
+    gap: 2rem;
+  }
+  
+  .product-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .product-info {
+    padding: 1rem;
+  }
+  
+  .product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-price {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  .add-to-cart {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #e68a00;
+  }
+  
+  footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .checkout-btn {
+        display: inline-block;
+        background-color: #27ae60;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        transition: background-color 0.3s ease;
+    }
+    .checkout-btn:hover {
+        background-color: #219a52;
+    }
+
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo">Спортивный магазин RAVE</div>
+    <nav>
+      <ul>
+        <li><a href="C:\Users\raved\Desktop\ИНТЕНЕТ МАГАЗИН\index.html\Магазин RAVE.html">Домой</a></li>
+        <li><a href="">Вход</a></li>
+        <li><a href="">Гольф</a></li>
+        <li><a href="C:\Users\raved\Desktop\ИНТЕНЕТ МАГАЗИН\index.html\Баскетбол.html">Баскетбол</a></li>
+                <li><a href="https://2gis.ru/vilyujsk/firm/70000001043154457">Карта</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  
+  <main>
+    <h1>Товары для Гольфа</h1>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://mosgolfshop.ru/_sh/6/672_1.jpg" alt="Official size football with leather texture and laces" width="250" height="220">
+        <div class="product-info">
+          <div class="product-title">Клюшка женская гольфа</div>
+          <p>Паттер PGM OVERSEA, Женский, правый</p>
+          <p class="product-price">10.00$</p>
+          <button class="add-to-cart">Добавить в корзину</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://static.cdek.shopping/images/shopping/a8UPfYmeHJyNkjdb.jpg" alt="Black and white football cleats with studs" width="250" height="200">
+        <div class="product-info">
+          <div class="product-title">Перчатка для гольфа </div>
+          <p>Женские защитные перчатки  правшей белые и черные </p>
+          <p class="product-price">$200.0</p>
+          <button class="add-to-cart">Добавить в корзину</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://minigolfshop.ru/file/images/20240616040625.jpg" alt="Red football helmet with face mask" width="250" height="200">
+        <div class="product-info">
+          <div class="product-title">Клюшка</div>
+          <p>Универсальная клюшка для мини-гольфа (синий)</p>
+          <p class="product-price">$199.99</p>
+          <button class="add-to-cart">Добавить в корзину</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://minigolfshop.ru/file/images/20241013191442.jpg" alt="Blue football jersey with white number" width="250" height="200">
+        <div class="product-info">
+          <div class="product-title">Мяи для гольфа 50 штук</div>
+          <p>Мячи для гольфа оптом. Цвет: белый с лого. 50 шт.</p>
+          
+          <p class="product-price">$79.99</p>
+          <button class="add-to-cart">Добавить в корзину</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://static.cdek.shopping/images/shopping/RrlX70RT02xIGoxH.jpg" alt="Set of football shoulder pads" width="250" height="200">
+        <div class="product-info">
+          <p>Wilson Magnolia Carry для женщин, серый/мятный</p>
+          <div class="product-title">Полный комплект для гольфа</div>
+          <p class="product-price">$149.99</p>
+          <button class="add-to-cart">Добавить в корзину</button>
+        </div>
+      </div>
+      
+            
+           
+
+    <footer>
+        <p>&copy; 2024 Спортивный магазин</p>
+    </footer>
